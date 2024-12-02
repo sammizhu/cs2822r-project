@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the CSV data
-file_path = '/Users/sammizhu/cs2822r-project/data_vis/initial_results.csv'  # Update this with the correct file path
+file_path = '/Users/sammizhu/cs2822r-project/data_vis/results.csv'  
 data = pd.read_csv(file_path)
 
 # Ensure 'User Correct' column is numeric and represents accuracy directly
